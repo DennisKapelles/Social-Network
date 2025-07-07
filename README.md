@@ -45,6 +45,7 @@ This project implements a simulation of a social networking system, written in C
 
 All user data and actions are stored in plain text files:
 - `database.txt`: Stores registered users and their password
+- `<username>.txt`: Stores friends of each user
 - `Post.txt`: Contains user posts
 - `Reply_to_post.txt`: Contains post replies
 - `Likes.txt`: Tracks likes per post
