@@ -25,7 +25,7 @@ This project implements a simulation of a social networking system, written in C
 
 - **Friend Requests**
   - Send a friend request to any registered user who is not already a friend.
-  - Requests are stored in `database.txt` in a `Requests` section.
+  - Requests are stored in a `Requests` section.
 
 - **Accept or Reject Requests**  
   Accepting a request adds both users to each other's friend files.
@@ -44,8 +44,7 @@ This project implements a simulation of a social networking system, written in C
 ## 💾 Data Storage
 
 All user data and actions are stored in plain text files:
-- `database.txt`: Stores registered users and friend requests
-- `friends_<username>.txt`: Stores friends of each user
+- `database.txt`: Stores registered users and their password
 - `Post.txt`: Contains user posts
 - `Reply_to_post.txt`: Contains post replies
 - `Likes.txt`: Tracks likes per post
