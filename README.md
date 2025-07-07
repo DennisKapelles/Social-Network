@@ -60,4 +60,5 @@ All user data and actions are stored in plain text files:
 To compile and run the project:
 
 g++ social_network.cpp -o social_network
+
 ./social_network
